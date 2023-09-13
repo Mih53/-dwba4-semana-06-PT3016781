@@ -1,0 +1,15 @@
+body > div.ADS > h1
+{
+    margin-top: 2em;
+    font-weight: bold;
+}
+body > div.ADS > h2
+{
+    margin-top: 2em;
+    font-style: italic;
+}
+
+body > div.ADS > p
+{
+    text-align: justify;
+}

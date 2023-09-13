@@ -1,0 +1,80 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#Formulario_Eventos p{
+    font-size: 35px;
+    }
+ p{
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 0.1em;
+}
+#Formulario_Eventos > div.info_acesso > p, #Formulario_Eventos > div.info_pessoal > p, #Formulario_Eventos > div.info_pessoal > div > p
+{
+    font-size: 20px;
+}
+#Formulario_Eventos > div.formulario p
+{
+    font-size: 20px;
+}
+#Formulario_Eventos > div.formulario > form
+{
+    margin-left: 0.1em;
+}
+#Formulario_Eventos > div.formulario > form > select
+{
+    width: 98%;
+    margin-top: 1em;
+    height: 3em;
+    border-radius: 0.5em;
+    background-color: rgb(240, 240, 230);
+    font-weight: bold;
+    color: black;
+}
+#Formulario_Eventos > div.info_acesso > form > div, #Formulario_Eventos > div.info_pessoal > form > div.nome, div.email, div.telefone,#Formulario_Eventos > div.info_pessoal > div.github
+{
+    margin-top: 0.9em;
+    margin-left: 1em;
+}
+#email, #phone{
+    width: 98%;
+    height: 2em;
+    margin-top: 0.5em;
+}
+#Formulario_Eventos > div.info_pessoal > div
+{
+    margin-left: 1em;
+}
+#Formulario_Eventos > div.info_pessoal > div.date_nascimento, #Formulario_Eventos > div.info_pessoal > div:nth-child(5)
+{
+    margin-top: 1em;
+}
+#sexo
+{
+    margin-top: 1em;
+}
+#git{
+    width: 98%;
+    margin-top: 1em;
+}
+
+#Formulario_Eventos > div.info_pessoal > div.botoes > button.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 98%;
+    height: 3em;
+    cursor: pointer;
+    margin-top: 1em;
+  }

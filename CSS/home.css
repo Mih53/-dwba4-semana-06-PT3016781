@@ -1,0 +1,36 @@
+
+
+  .img_redonda p, .paragrafo p, .video_p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 3em;
+  }
+  .img_redonda img{
+    border-radius: 50%;
+    width: 30em;
+    margin-left: 28em;
+    margin-top: 2em;
+  }
+
+  .paragrafo p
+  {
+   margin-top: 0;
+   font-size: 15px;
+  }
+  .paragrafo{
+    border: 0.1px;
+    border-style: double;
+    border-color: grey;
+    width: 80em;
+    margin-left: 3em;
+  }
+  .video_p{
+    margin-top: 2em;
+    font-size: 19px;
+  }
+  .video{
+    margin-left: 25em;
+    margin-top: 2em;
+  }
+ 
