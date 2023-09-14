@@ -62,9 +62,10 @@ body > section > div.container > div.assunto
     
 }
 #country{
-    background-color: rgb(211, 211, 209);
+    background-color: rgb(240, 240, 230);
 }
-#vehicle1{
+#vehicle1
+{
     margin-top: 1em;
 }
 

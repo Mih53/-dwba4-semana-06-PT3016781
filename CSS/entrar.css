@@ -1,0 +1,45 @@
+body > section > p
+{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 1em;
+}
+body > section > div > div.usuario, body > section > div > div.senha > div
+{
+    margin-top: 2em;
+    border: 2px;
+    background-color: rgb(240, 240, 230);
+    height: 2.5em;
+}
+body > section > div > div.usuario > label, body > section > div > div.senha > div > label,
+#fuser, #lsenha
+{
+    margin-top: 0.8em;
+    margin-left: 0.5em;
+}
+body > section > div.botoes > button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 98%;
+    height: 3em;
+    cursor: pointer;
+    margin-top: 1em;
+    margin-left: 1em;
+    }
+
+    body > section > div.botoes
+    {
+        background-color: rgb(240, 240, 230);
+        margin-top: 2em;
+    }
+
+    body > section > div.botoes > div
+    {
+        margin-top: 1em;
+        margin-left: 1em;
+    }
